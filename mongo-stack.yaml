@@ -17,7 +17,7 @@ spec:
         image: mongo:3.6.22-xenial
         volumeMounts:
           - name: mongo-persistent-storage
-            mountPath: /data
+            mountPath: /data/db
       volumes:
         - name: mongo-persistent-storage
           # pointer to the configuration of HOW we want the mount to be implemented
