@@ -11,7 +11,7 @@ metadata:
     nginx.ingress.kubernetes.io/auth-realm: "Get lost untill you have a password"
 spec:
   rules:
-    - host: queue.fleetman.com
+    - host: fleetman.naimatkhan.info
       http:
         paths:
           - path: /
