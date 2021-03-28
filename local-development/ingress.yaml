@@ -12,5 +12,5 @@ spec:
         paths:
           - path: /
             backend:
-              serviceName:fleetman-webapp
+              serviceName: fleetman-webapp
               servicePort: 80
